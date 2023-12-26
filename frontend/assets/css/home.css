@@ -521,25 +521,26 @@ footer .formDetail form > .btn {
   color: white;
   background-color: #1a1a1a;
 }
-.londonBranch > h3{
+.londonBranch > h3 {
   font-size: 2rem;
   font-weight: 900;
 }
-.londonBranch > div{
+.londonBranch > div {
   width: 50%;
 }
-.londonBranch h4{
+.londonBranch h4 {
   font-weight: 600;
 }
-.londonBranch > h3 > span{
+.londonBranch > h3 > span {
   display: inline-flex;
   flex-direction: column;
 }
-.londonBranch > h3 > span::after{
+.londonBranch > h3 > span::after {
   content: "";
   margin-top: 5px;
   height: 10px;
-  background-color: #fff;
+  background: rgb(17,189,226);
+background: linear-gradient(90deg, rgba(17,189,226,1) 0%, rgba(26,26,26,1) 95%);
 }
 
 .londonBranch > .info > a {
@@ -553,49 +554,56 @@ footer .formDetail form > .btn {
 .londonBranch > .nationWide {
   width: 100%;
 }
-.slider{
-  height: 70vh;
-  border: 1px solid white;
-}
-.footerNav{
+.footerNav {
   padding: 50px 0;
   height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.footerNav > ul{
+.footerNav > ul {
   display: flex;
   justify-content: space-evenly;
   width: 70%;
   margin: 0 auto;
 }
-.footerNav > ul a{
-  color: #767676; 
+.footerNav > ul a {
+  color: #767676;
 }
-.footerNav > ul a:hover{
+.footerNav > ul a:hover {
   color: white;
 }
-.footerNav > .copyright{
-  margin: 0 auto; 
+.footerNav > .copyright {
+  margin: 0 auto;
   position: relative;
-  border-top: 2px solid #000; 
+  border-top: 2px solid #000;
   text-align: center;
   /* padding: 15px; */
-  height: 30%; 
+  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: end;
   width: 70%;
-  color: #CCDFC4;
+  color: #ccdfc4;
 }
-.footerNav > .copyright::before{
+.footerNav > .copyright::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #353838;     
+  background-color: #353838;
   height: 1px;
-  color: red; 
-  width: 100%; 
+  color: red;
+  width: 100%;
+}
+
+footer .slider .item {
+  border: 1px solid red;
+  height: 200px;
+}
+
+footer .slider .item img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: fill;
 }
